@@ -1,0 +1,151 @@
+body
+{
+    background-color: black;
+}
+
+h1
+{
+    text-align: center;
+    font-family: "Montserrat Alternates SemiBold", fantasy;
+    color: #697565;
+    font-size: 300%;
+}
+
+h2
+{
+    text-align: center;
+    font-family: "Montserrat Alternates SemiBold", fantasy;
+    color: #697565;
+    font-size: 180%;
+}
+
+h3
+{
+    text-align: center;
+    font-family: "Montserrat Alternates SemiBold", fantasy;
+    color: #697565;
+    font-size: 115%;
+}
+
+#zoneDeJeu
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#zoneDeJeuContenu
+{
+    display: flex;
+    background-color: #ECDFCC;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+    width: 700px;
+    height: 350px;
+}
+
+h4
+{
+    font-family: "Montserrat Alternates SemiBold", fantasy;
+    color: #697565;
+    font-size: 115%;
+}
+
+.optionSource label
+{
+    font-family: "Montserrat Alternates SemiBold", fantasy;
+    color: #697565;
+    font-size: 18px;
+}
+
+#texteZone
+{
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+    border-color: black;
+    margin: 10px;
+}
+
+#Validation
+{
+    width: 80px;
+    height: 30px;
+    background-color: #1E201E;
+    border-radius: 3px;
+    font-family: "Montserrat Alternates ExtraBold", fantasy;
+    color: #ECDFCC;
+    cursor: pointer;
+}
+
+#zonePartage
+{
+    text-align: center;
+    font-family: "Montserrat Alternates SemiBold", fantasy;
+    color: #697565;
+    font-size: 115%;
+}
+
+#zoneInformations
+{
+    display: flex;
+    background-color: #ECDFCC;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+/*#motsAEcrire*/
+/*{*/
+/*    background-color: yellow;*/
+/*}*/
+
+#zoneMotsEcrire
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 450px;
+    height: 45px;
+}
+
+#zoneMotsEcrire #texteUnique
+{
+    text-align: center;
+    font-family: "Montserrat Alternates SemiBold", fantasy;
+    color: #697565;
+    font-size: 115%;
+    margin-top: 10px;
+}
+
+
+#popup
+{
+    display: flex;
+    visibility: hidden;
+    justify-self: center;
+    position: absolute;
+    margin-top: 58px;
+}
+
+#popup form
+{
+        display: flex;
+        background-color: #1E201E;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        width: 250px;
+        height: 250px;
+}
+
+#share
+{
+
+}
